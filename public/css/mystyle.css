@@ -1,0 +1,62 @@
+
+
+
+.row_table{
+    color:black
+}
+
+.heading
+{
+    text-align:center; 
+    font-weight:bold;
+}  
+.navigation
+{
+    height: 50px;
+    width:100%;
+
+    
+}
+
+#list.li{
+  margin-bottom: 1.5%;
+  border-bottom: solid 1px gray;
+  margin: 2%;
+}
+.navitemstyle
+{
+    text-align: right;
+}
+h5{
+    color:rgb(156, 155, 154);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.body_style
+{
+   background: linear-gradient(135deg, cyan 30%, orange);
+
+}
+ul{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+ .body_login{
+  margin: 0;
+  padding: 0;
+  background-color:navy;
+  height: 100vh;
+}
+#login .container #login-row #login-column #login-box {
+  margin-top: 120px;
+  max-width: 600px;
+  height: 320px;
+  border: 1px solid #9C9C9C;
+  background-color: whitesmoke;
+}
+#login .container #login-row #login-column #login-box #login-form {
+  padding: 20px;
+}
+#login .container #login-row #login-column #login-box #login-form #register-link {
+  margin-top: -85px;
+}

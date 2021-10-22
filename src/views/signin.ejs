@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+    
+<link rel="stylesheet" href="css/mystyle.css">
+
+</head>
+<body class="body_login">
+    
+        <div id="login">
+        <h3 class="text-center text-white pt-5"> Digital Library Login</h3>
+        <div class="container">
+            <div id="login-row" class="row justify-content-center align-items-center">
+                <div id="login-column" class="col-md-6">
+                    <div id="login-box" class="col-md-12">
+                      <form id="login-form" class="form" action="/login" method="POST">
+
+                           <h3 class="text-center text-info">Login</h3>
+                            <div class="form-group">
+                                <label for="username" class="text-info"><b>Username:</b></label><br>
+                                <input type="text" id="name"  name="username" class="form-control" required>
+                                <span id="suser"></span>
+
+                            </div>
+                            <div class="form-group">
+                                <label for="password"  class="text-info"><b>Password:</b></label><br>
+                                <input type="password" id="pwd" name="password"  class="form-control" required>
+                                <span id="spwd"></span>
+
+                            </div>
+                            <div class="form-group">
+                             <input type="submit" name="Submit" id="btnsubmit" class="btn btn-info btn-md" value="submit" >
+                                <br/>
+                                <span id="sname"></span>
+
+                            </div>
+                           <p>New Users <a  href="/signup">Signup here</a></p>
+                   
+                 </form>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
